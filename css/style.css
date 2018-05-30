@@ -1,0 +1,63 @@
+html,body {
+  margin : 0;
+  padding: 0;
+}
+
+h1 {
+  font-family : "Permanent Marker";
+  font-weight: 600;
+}
+
+.center {
+  margin: auto;
+  text-align: center;
+}
+
+.clear {
+  clear: both;
+}
+
+.main {
+  width: 100vw;
+  height: 100vh;
+  background: rgb(34,195,182);
+  background: linear-gradient(0deg, rgba(34,195,182,1) 46%, rgba(253,187,45,1) 100%);
+  position: absolute;
+}
+
+#explications {
+  padding-top: 20px;
+}
+#choix {
+  width: 70%;
+  height: 200px;
+  text-align:center;
+  margin: 0 auto;
+}
+
+.pierre,.feuille,.ciseaux {
+
+}
+
+.pierre>img,.feuille>img,.ciseaux>img {
+  border: 1px solid black;
+  height: 30vh;
+  width: 20vw;
+  float: left;
+}
+.magnify:hover {
+  background-color: rgb(201, 76, 76, 0.5);
+}
+
+#resultat {
+  margin-top : 5vh;
+  margin-right: auto;
+  margin-left: auto;
+  border: 1px solid black;
+  width: 40vw;
+  height: 20vh;
+}
+
+.choixennemi, .message {
+  display: none;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Chifoumi</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="main">
+
+    <div id="explications">
+      <h1 class="center">Chi-fou-mi !</h1>
+      <p class="center">Clique sur l'image pour faire ton choix !</p>
+    </div>
+    <div id="choix">
+      <div class="pierre magnify">
+        <img src="./img/pierre.svg" alt="Pierre">
+      </div>
+      <div class="feuille magnify">
+        <img src="./img/feuille.svg" alt="Feuille">
+      </div>
+      <div class="ciseaux magnify">
+        <img src="./img/ciseaux.svg" alt="Ciseaux">
+      </div>
+    </div>
+    <div class="clear"></div>
+    <div id="resultat">
+      <div id="choixennemi">
+        <p class="choixennemi">L'adversaire a choisi la pierre</p>
+        <p class="choixennemi">L'adversaire a choisi la feuille</p>
+        <p class="choixennemi">L'adversaire a choisi les ciseaux</p>
+      </div>
+      <div id="message">
+        <p class="message">gagné ! :)</p>
+        <p class="message">perdu :/ </p>
+        <p class="message">Egalité ;)</p>
+      </div>
+    </div>
+    <div id="score" class="center">
+      <h1>Score</h1>
+      <p class="score">Vous :</p>
+      <p class="score">Votre adversaire :</p>
+    </div>
+
+  </div>
+
+  <script src="./js/functions.js"></script>
+</body>
+
+</html>
